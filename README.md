@@ -1,4 +1,4 @@
-# ry-dist
+# ry-dist-archives
 
 This repository contains built wheels for `ry` packages, many of which have been
 removed from PyPI.
