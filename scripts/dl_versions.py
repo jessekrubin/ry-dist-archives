@@ -8,16 +8,21 @@
 # ///
 import asyncio
 import hashlib
-from collections.abc import Coroutine
-from typing import Any
 
-from pydantic.dataclasses import dataclass
-from rich import print
+from typing import TYPE_CHECKING, Any
 
 import ry
 
+from pydantic.dataclasses import dataclass
+from rich.console import Console
+
+if TYPE_CHECKING:
+    from collections.abc import Coroutine
+
+
 PACKAGE_NAME = "ry"  # Change to your desired package
 PYPI_URL = f"https://pypi.org/pypi/{PACKAGE_NAME}/json"
+console = Console()
 
 
 @dataclass(frozen=True)
@@ -29,7 +34,7 @@ class RyPackage:
 
 
 def md5_hash(s: ry.Bytes) -> str:
-    return hashlib.md5(s).hexdigest()  # noqa: S324
+    return hashlib.md5(s).hexdigest()
 
 
 async def get_all_versions(package_name: str) -> list[str]:
@@ -62,7 +67,7 @@ async def get_wheel_urls(package_name: str, version: str) -> list[RyPackage]:
     url = f"https://pypi.org/pypi/{package_name}/{version}/json"
     response = await ry.fetch(url)
     if response.status_code != 200:
-        print(f"Failed to fetch version {version}: {response.status_code}")
+        console.log(f"Failed to fetch version {version}: {response.status_code}")
         return []
 
     data = await response.json()
@@ -93,12 +98,12 @@ async def download_file(pkg: RyPackage, outdir: str) -> None:
     filename = pkg.url.split("/")[-1]
     outpath = f"{outdir}/{filename}"
     if ry.FsPath(outpath).exists():
-        print(f"{filename} already exists, skipping download.")
+        console.log(f"{filename} already exists, skipping download.")
         return
     response = await ry.fetch(ry.URL(pkg.url))
     body = await response.bytes()
     await ry.write_async(outpath, body)
-    print(f"Downloaded {filename}")
+    console.log(f"Downloaded {filename}")
 
 
 async def download_dists(
@@ -128,27 +133,21 @@ async def main() -> None:
     total_size_of_all_wheels = sum(
         sum(pkg.size for pkg in pkgs) for pkgs in wheels_data.values()
     )
-
-    print("data")
-    print(wheels_data)
     # Save to a JSON file
     json_data = ry.stringify(wheels_data, fmt=True, append_newline=True)
     ry.write_async(
         f"{PACKAGE_NAME}-wheels.json",
         json_data,
     )
-    print(f"Scraped {PACKAGE_NAME}, saved wheel URLs to {PACKAGE_NAME}_wheels.json")
+    console.log(
+        f"Scraped {PACKAGE_NAME}, saved wheel URLs to {PACKAGE_NAME}_wheels.json"
+    )
     await download_dists(wheels_data, by_version=False)
 
-    print(f"Total size of all wheels: {ry.fmt_size(total_size_of_all_wheels)}")
+    console.log(f"Total size of all wheels: {ry.fmt_size(total_size_of_all_wheels)}")
 
 
 if __name__ == "__main__":
-    try:
-        import uvloop
+    from asyncio import run
 
-        uvloop.run(main())
-    except ImportError:
-        from asyncio import run
-
-        run(main())
+    run(main())
