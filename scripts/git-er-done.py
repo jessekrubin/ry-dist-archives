@@ -4,9 +4,10 @@
 #     "rich",
 # ]
 # ///
-from rich import print
 from functools import lru_cache
 from subprocess import run
+
+from rich import print
 from rich.console import Console
 
 console = Console()
@@ -45,7 +46,7 @@ def get_untracked_wheels() -> list[str] | None:
         console.log("Error getting untracked files", style="bold red")
         return None
     files = done.stdout.splitlines()
-    return list(filter(lambda x: x.endswith(".whl") or x.endswith(".gz"), files))
+    return list(filter(lambda x: x.endswith((".whl", ".gz")), files))
 
 
 def main() -> None:
