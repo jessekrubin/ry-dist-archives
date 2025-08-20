@@ -8,13 +8,12 @@
 # ///
 import asyncio
 import hashlib
-
 from typing import TYPE_CHECKING, Any
-
-import ry
 
 from pydantic.dataclasses import dataclass
 from rich.console import Console
+
+import ry
 
 if TYPE_CHECKING:
     from collections.abc import Coroutine
@@ -34,7 +33,7 @@ class RyPackage:
 
 
 def md5_hash(s: ry.Bytes) -> str:
-    return hashlib.md5(s).hexdigest()
+    return hashlib.md5(s).hexdigest()  # noqa: S324
 
 
 async def get_all_versions(package_name: str) -> list[str]:
@@ -47,7 +46,7 @@ async def get_all_versions(package_name: str) -> list[str]:
     return list(data["releases"].keys())
 
 
-async def pypi_package_stats(package_name: str) -> int:
+async def pypi_package_stats(package_name: str) -> tuple[int, int]:
     """Get the total size of all packages for a given package name."""
     response = await ry.fetch(f"https://pypi.org/pypi/{package_name}/json")
     if response.status_code != 200:
@@ -107,7 +106,7 @@ async def download_file(pkg: RyPackage, outdir: str) -> None:
 
 
 async def download_dists(
-    wheels: dict[str, list[RyPackage]], by_version: bool = True
+    wheels: dict[str, list[RyPackage]], *, by_version: bool = True
 ) -> None:
     """Download the wheel files."""
 
@@ -129,13 +128,12 @@ async def download_dists(
 
 async def main() -> None:
     wheels_data = await scrape_all_wheels(PACKAGE_NAME)
-
     total_size_of_all_wheels = sum(
         sum(pkg.size for pkg in pkgs) for pkgs in wheels_data.values()
     )
     # Save to a JSON file
     json_data = ry.stringify(wheels_data, fmt=True, append_newline=True)
-    ry.write_async(
+    await ry.write_async(
         f"{PACKAGE_NAME}-wheels.json",
         json_data,
     )
