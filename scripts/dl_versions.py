@@ -8,19 +8,14 @@
 # ///
 import asyncio
 import hashlib
-from typing import TYPE_CHECKING, Any
+from typing import Literal
 
 from pydantic.dataclasses import dataclass
 from rich.console import Console
 
 import ry
 
-if TYPE_CHECKING:
-    from collections.abc import Coroutine
-
-
-PACKAGE_NAME = "ry"  # Change to your desired package
-PYPI_URL = f"https://pypi.org/pypi/{PACKAGE_NAME}/json"
+_PACKAGE_NAME = "ry"  # Change to your desired package
 console = Console()
 
 
@@ -30,6 +25,28 @@ class RyPackage:
     version: str
     md5_digest: str
     size: int
+
+
+@dataclass(frozen=True)
+class DownloadResult:
+    ok: bool
+    pkg: RyPackage
+    status: Literal["ok", "skip", "err"]
+    reason: str | None
+    msg: str | None
+    elapsed: float | None
+
+
+def _rich_msg(result: DownloadResult) -> str:
+    filename = result.pkg.url.split("/")[-1]
+    if not result.ok:
+        return f"[red]failed[/red]: {filename} ({result.reason}) - {result.msg}"
+    if result.status == "ok":
+        return f"[green]success[/green]: {filename} {result.elapsed:.2f}s"
+    elif result.status == "skip":
+        return f"[yellow]skipped[/yellow]: {filename} (already exists)"
+    msg = "unreachable"
+    raise RuntimeError(msg)
 
 
 def md5_hash(s: ry.Bytes) -> str:
@@ -66,7 +83,8 @@ async def get_wheel_urls(package_name: str, version: str) -> list[RyPackage]:
     url = f"https://pypi.org/pypi/{package_name}/{version}/json"
     response = await ry.fetch(url)
     if response.status_code != 200:
-        console.log(f"Failed to fetch version {version}: {response.status_code}")
+        msg = f"[red]error[/red] Failed to fetch version {version}: {response.status_code}"
+        console.log(msg)
         return []
 
     data = await response.json()
@@ -92,17 +110,95 @@ async def scrape_all_wheels(package_name: str) -> dict[str, list[RyPackage]]:
     return wheels
 
 
-async def download_file(pkg: RyPackage, outdir: str) -> None:
+async def download_file(
+    pkg: RyPackage,
+    outdir: str,
+) -> DownloadResult:
     """Download a file from a URL to a specified directory."""
     filename = pkg.url.split("/")[-1]
     outpath = f"{outdir}/{filename}"
     if ry.FsPath(outpath).exists():
-        console.log(f"{filename} already exists, skipping download.")
-        return
-    response = await ry.fetch(ry.URL(pkg.url))
+        return DownloadResult(
+            ok=True,
+            pkg=pkg,
+            status="skip",
+            reason="already exists",
+            msg=f"{filename} already exists",
+            elapsed=None,
+        )
+    start_time = ry.instant()
+    response = await ry.fetch(pkg.url)
     body = await response.bytes()
+    elapsed = start_time.elapsed()
+    file_md5 = md5_hash(body)
+    if file_md5 != pkg.md5_digest:
+        msg = f"MD5 mismatch for {filename}: expected {pkg.md5_digest}, got {file_md5}"
+        return DownloadResult(
+            ok=False,
+            pkg=pkg,
+            status="err",
+            reason="md5 mismatch",
+            msg=msg,
+            elapsed=elapsed.as_secs_f64(),
+        )
     await ry.write_async(outpath, body)
-    console.log(f"Downloaded {filename}")
+    return DownloadResult(
+        ok=True,
+        pkg=pkg,
+        status="ok",
+        reason=None,
+        msg=None,
+        elapsed=elapsed.as_secs_f64(),
+    )
+
+
+async def download_file_task(
+    pkg: RyPackage, outdir: str, *, log: bool = False
+) -> DownloadResult:
+    """Download a file from a URL to a specified directory as a task."""
+    r = await download_file(pkg, outdir)
+    if log and r.status != "skip":
+        console.log(_rich_msg(r))
+    return r
+
+
+async def download_batch(pkgs: list[RyPackage], outdir: str) -> list[DownloadResult]:
+    """Download a batch of packages."""
+    tasks: list[asyncio.Task[DownloadResult]] = []
+    start = ry.instant()
+    async with asyncio.TaskGroup() as tg:
+        for pkg in pkgs:
+            task = tg.create_task(
+                download_file_task(pkg, outdir, log=True), name=pkg.url
+            )
+            tasks.append(task)
+    elapsed = start.elapsed()
+    total_size_downloaded = sum(
+        task.result().pkg.size
+        for task in tasks
+        if task.result().ok and task.result().status == "ok"
+    )
+
+    mb_per_sec = total_size_downloaded / elapsed.as_secs_f64() / (1024 * 1024)
+    stats = {
+        "elapsed": elapsed.as_secs_f64(),
+        "total": len(tasks),
+        "successful": sum(
+            1 for task in tasks if task.result().ok and task.result().status == "ok"
+        ),
+        "skipped": sum(
+            1 for task in tasks if task.result().ok and task.result().status == "skip"
+        ),
+        "failed": sum(1 for task in tasks if not task.result().ok),
+        "downloaded": {
+            "nbytes": total_size_downloaded,
+            "nbytes_str": ry.fmt_size(total_size_downloaded),
+            "mb/s": ry.Size.from_mib(mb_per_sec).format() + "/s",
+        },
+    }
+    stats_json = ry.stringify(stats, fmt=True).decode()
+    console.log(f"batch finished; stats: {stats_json}")
+    return [task.result() for task in tasks]
 
 
 async def download_dists(
@@ -114,33 +210,38 @@ async def download_dists(
     ry.create_dir_all(outdir)
     if by_version:
         for version, urls in wheels.items():
+            msg = f"downloading version: {version}"
+            console.log("-" * len(msg))
+            console.log(msg)
             outdir = f"dist/{version}"
             ry.create_dir_all(outdir)
-            await asyncio.gather(*(download_file(pkg, outdir) for pkg in urls))
+            await download_batch(urls, outdir)
     else:
-        futs: list[Coroutine[Any, Any, None]] = []
+        batches: list[tuple[list[RyPackage], str]] = []
         for version, pkgs in wheels.items():
             outdir = f"dist/{version}"
             ry.create_dir_all(outdir)
-            futs.extend(download_file(pkg, outdir) for pkg in pkgs)
-        await asyncio.gather(*futs)
+            batches.append((pkgs, outdir))
+        for pkgs, outdir in batches:
+            async with asyncio.TaskGroup() as tg:
+                tg.create_task(download_batch(pkgs, outdir))
 
 
 async def main() -> None:
-    wheels_data = await scrape_all_wheels(PACKAGE_NAME)
+    wheels_data = await scrape_all_wheels(_PACKAGE_NAME)
     total_size_of_all_wheels = sum(
         sum(pkg.size for pkg in pkgs) for pkgs in wheels_data.values()
     )
     # Save to a JSON file
     json_data = ry.stringify(wheels_data, fmt=True, append_newline=True)
     await ry.write_async(
-        f"{PACKAGE_NAME}-wheels.json",
+        f"{_PACKAGE_NAME}-wheels.json",
         json_data,
     )
     console.log(
-        f"Scraped {PACKAGE_NAME}, saved wheel URLs to {PACKAGE_NAME}_wheels.json"
+        f"scraped {_PACKAGE_NAME}, saved wheel URLs to {_PACKAGE_NAME}_wheels.json"
     )
-    await download_dists(wheels_data, by_version=False)
+    await download_dists(wheels_data, by_version=True)
 
     console.log(f"Total size of all wheels: {ry.fmt_size(total_size_of_all_wheels)}")
 
