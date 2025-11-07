@@ -1,0 +1,16 @@
+[project]
+name = "ry-dist"
+version = "0.0.0"
+description = "ry dist"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.12.4",
+    "rich>=14.2.0",
+    "ry>=0.0.66",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+]

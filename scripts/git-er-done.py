@@ -2,18 +2,29 @@
 # requires-python = ">=3.13,<3.14"
 # dependencies = [
 #     "rich",
+#     "ry",
 # ]
 # ///
 from functools import lru_cache
 from subprocess import run
 
-from rich import print
 from rich.console import Console
+
+import ry
 
 console = Console()
 console._log_render.omit_repeated_times = False
 
 terminal_width = console.width
+
+
+@lru_cache(maxsize=1)
+def _git() -> str:
+    p = ry.which("git")
+    if p is None:
+        msg = "Git executable not found in PATH"
+        raise RuntimeError(msg)
+    return str(p)
 
 
 @lru_cache(maxsize=1)
@@ -29,15 +40,16 @@ def br(s: str = "_") -> None:
 def add_file_and_git_push(filepath: str) -> None:
     """Add a file to git and push the changes."""
     console.log(f"Adding: [bold green]{filepath}[/bold green]")
-    print()
-    run(["git", "add", "--force", filepath], check=True)
-    run(["git", "commit", "-m", f"Add {filepath}"], check=True)
-    run(["git", "push"], check=True)
+    console.print()
+    run([_git(), "add", "--force", filepath], check=True)
+    run([_git(), "commit", "-m", f"Add {filepath}"], check=True)
+    run([_git(), "push"], check=True)
 
 
 def get_untracked_wheels() -> list[str] | None:
     done = run(
-        ["git", "ls-files", "--other", "--exclude-standard"],
+        [_git(), "ls-files", "--other", "--exclude-standard"],
+        check=False,
         capture_output=True,
         text=True,
     )
