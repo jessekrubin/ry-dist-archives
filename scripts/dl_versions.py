@@ -3,7 +3,7 @@
 # dependencies = [
 #     "pydantic",
 #     "rich",
-#     "ry",
+#     "ry>=0.0.93",
 # ]
 # ///
 import asyncio
@@ -18,13 +18,26 @@ import ry
 _PACKAGE_NAME = "ry"  # Change to your desired package
 console = Console()
 
+console.log(f"ry: {ry.__version__}")
+
+
+@dataclass(frozen=True)
+class Digests:
+    md5: str
+    sha256: str
+    blake2b_256: str
+
 
 @dataclass(frozen=True)
 class RyPackage:
     url: str
+    filename: str
     version: str
     md5_digest: str
     size: int
+    digests: Digests
+    upload_time: ry.DateTime
+    upload_time_iso_8601: ry.Timestamp
 
 
 @dataclass(frozen=True)
@@ -53,6 +66,10 @@ def md5_hash(s: ry.Bytes) -> str:
     return hashlib.md5(s).hexdigest()  # noqa: S324
 
 
+def sha256_hash(s: ry.Bytes) -> str:
+    return ry.sha256(s).hexdigest()
+
+
 async def get_all_versions(package_name: str) -> list[str]:
     """Fetch all available versions of a package from PyPI."""
     response = await ry.fetch(f"https://pypi.org/pypi/{package_name}/json")
@@ -60,6 +77,7 @@ async def get_all_versions(package_name: str) -> list[str]:
         err = Exception(f"Failed to fetch package data: {response.status_code}")
         raise err
     data = await response.json()
+    console.print(data)
     return list(data["releases"].keys())
 
 
@@ -91,9 +109,17 @@ async def get_wheel_urls(package_name: str, version: str) -> list[RyPackage]:
     return [
         RyPackage(
             url=file["url"],
+            filename=file["filename"],
             version=version,
             md5_digest=file["md5_digest"],
             size=file["size"],
+            digests=Digests(
+                md5=file["md5_digest"],
+                sha256=file["digests"]["sha256"],
+                blake2b_256=file["digests"]["blake2b_256"],
+            ),
+            upload_time=ry.DateTime.parse(file["upload_time"]),
+            upload_time_iso_8601=ry.Timestamp.parse(file["upload_time_iso_8601"]),
         )
         for file in data["urls"]
         if (file["filename"].endswith(".whl") or file["filename"].endswith(".tar.gz"))
@@ -138,6 +164,18 @@ async def download_file(
             pkg=pkg,
             status="err",
             reason="md5 mismatch",
+            msg=msg,
+            elapsed=elapsed.as_secs_f64(),
+        )
+
+    file_sha256 = sha256_hash(body)
+    if file_sha256 != pkg.digests.sha256:
+        msg = f"SHA256 mismatch for {filename}: expected {pkg.digests.sha256}, got {file_sha256}"
+        return DownloadResult(
+            ok=False,
+            pkg=pkg,
+            status="err",
+            reason="sha256 mismatch",
             msg=msg,
             elapsed=elapsed.as_secs_f64(),
         )
@@ -201,30 +239,24 @@ async def download_batch(pkgs: list[RyPackage], outdir: str) -> list[DownloadRes
     return [task.result() for task in tasks]
 
 
-async def download_dists(
-    wheels: dict[str, list[RyPackage]], *, by_version: bool = True
-) -> None:
+async def write_index(data: dict[str, list[RyPackage]], path: str) -> None:
+    json_data = ry.stringify(data, fmt=True, append_newline=True)
+    await ry.write_async(path, json_data)
+    console.log(f"wrote index: {path}")
+
+
+async def download_dists(wheels: dict[str, list[RyPackage]]) -> None:
     """Download the wheel files."""
 
-    outdir = "dist"
-    ry.create_dir_all(outdir)
-    if by_version:
-        for version, urls in wheels.items():
-            msg = f"downloading version: {version}"
-            console.log("-" * len(msg))
-            console.log(msg)
-            outdir = f"dist/{version}"
-            ry.create_dir_all(outdir)
-            await download_batch(urls, outdir)
-    else:
-        batches: list[tuple[list[RyPackage], str]] = []
-        for version, pkgs in wheels.items():
-            outdir = f"dist/{version}"
-            ry.create_dir_all(outdir)
-            batches.append((pkgs, outdir))
-        for pkgs, outdir in batches:
-            async with asyncio.TaskGroup() as tg:
-                tg.create_task(download_batch(pkgs, outdir))
+    ry.create_dir_all("dist")
+    for version, urls in wheels.items():
+        msg = f"downloading version: {version}"
+        console.log("-" * len(msg))
+        console.log(msg)
+        outdir = f"dist/{version}"
+        ry.create_dir_all(outdir)
+        await download_batch(urls, outdir)
+        await write_index({version: urls}, f"{outdir}/index.json")
 
 
 async def main() -> None:
@@ -241,7 +273,8 @@ async def main() -> None:
     console.log(
         f"scraped {_PACKAGE_NAME}, saved wheel URLs to {_PACKAGE_NAME}_wheels.json"
     )
-    await download_dists(wheels_data, by_version=True)
+    await download_dists(wheels_data)
+    await write_index(wheels_data, "dist/index.json")
 
     console.log(f"Total size of all wheels: {ry.fmt_size(total_size_of_all_wheels)}")
 
