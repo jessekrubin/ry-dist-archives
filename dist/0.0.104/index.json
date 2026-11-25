@@ -1,0 +1,1348 @@
+{
+  "0.0.104": [
+    {
+      "url": "https://files.pythonhosted.org/packages/42/7e/939b1d33361795f8cf80ea44cb8e05582810dc139d1d36b9dfb9b85f983a/ry-0.0.104-cp311-cp311-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "21e432ff222a05fdd2ea9cf869d0da38",
+      "size": 6439366,
+      "digests": {
+        "md5": "21e432ff222a05fdd2ea9cf869d0da38",
+        "sha256": "4b71071d52773a27d46f657a94217d356817006f2025f766f32bc5a4b44abf91",
+        "blake2b_256": "427e939b1d33361795f8cf80ea44cb8e05582810dc139d1d36b9dfb9b85f983a"
+      },
+      "upload_time": "2026-10-22T05:55:12",
+      "upload_time_iso_8601": "2026-10-22T05:55:12.239933Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/57/bb/db9bacc9b2cfb429536d2f4442f8a7d77ce35b8585b271e88ddc83794bdf/ry-0.0.104-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "34bb65c06d3af6535191ba8de8259147",
+      "size": 7075386,
+      "digests": {
+        "md5": "34bb65c06d3af6535191ba8de8259147",
+        "sha256": "1fde163abd1a6df93cb98175162e33136a184a52e393116c7ba76200912b24be",
+        "blake2b_256": "57bbdb9bacc9b2cfb429536d2f4442f8a7d77ce35b8585b271e88ddc83794bdf"
+      },
+      "upload_time": "2026-10-22T05:55:14",
+      "upload_time_iso_8601": "2026-10-22T05:55:14.351248Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/7c/95/a4e6848e7ac16ae7e8eaeda28d8a089ee3496c6f78e86efa3ace17a23180/ry-0.0.104-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "245c6203af3272c66b7227076f05527f",
+      "size": 7253793,
+      "digests": {
+        "md5": "245c6203af3272c66b7227076f05527f",
+        "sha256": "3aeb7448863f4003a0aace7298eeb36ac72bbb4ef7edc5cbcd38d735c0cb3fba",
+        "blake2b_256": "7c95a4e6848e7ac16ae7e8eaeda28d8a089ee3496c6f78e86efa3ace17a23180"
+      },
+      "upload_time": "2026-10-22T05:55:15",
+      "upload_time_iso_8601": "2026-10-22T05:55:15.882616Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a2/ca/d2214a047c682b7ab4b887c985928cb55d961666de1ead4121848d272a8f/ry-0.0.104-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "3cca83ac27d2aeec8723708466c04644",
+      "size": 6875767,
+      "digests": {
+        "md5": "3cca83ac27d2aeec8723708466c04644",
+        "sha256": "37fca7d52098173d42fbae925b5107fe2c7672776db9595f558823c56fbaf0ee",
+        "blake2b_256": "a2cad2214a047c682b7ab4b887c985928cb55d961666de1ead4121848d272a8f"
+      },
+      "upload_time": "2026-10-22T05:55:17",
+      "upload_time_iso_8601": "2026-10-22T05:55:17.332072Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/16/20/4b16d20b1f4dadb0fbdab33ab6f2906f927c8fbe6e9a33292fab319dbda8/ry-0.0.104-cp311-cp311-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp311-cp311-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "652f4b993bfc1f8132ecca1b5dfff074",
+      "size": 6703944,
+      "digests": {
+        "md5": "652f4b993bfc1f8132ecca1b5dfff074",
+        "sha256": "fcfa2129077b5b33b7a9cf5b19c2ac8c2dadd13c3d446e24142dea78b5c20c6f",
+        "blake2b_256": "16204b16d20b1f4dadb0fbdab33ab6f2906f927c8fbe6e9a33292fab319dbda8"
+      },
+      "upload_time": "2026-10-22T05:55:18",
+      "upload_time_iso_8601": "2026-10-22T05:55:18.804128Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/0a/ce/0fb6282b56ba71abf5a66af1603ac29cf51dab0150e37ed9e83d6ab3389b/ry-0.0.104-cp311-cp311-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp311-cp311-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "f6427dcd3c12135c0eb1efb4a3317ef9",
+      "size": 7160788,
+      "digests": {
+        "md5": "f6427dcd3c12135c0eb1efb4a3317ef9",
+        "sha256": "6bd594ef186aeb8e62bf7702647246d0ad843add66204b6a810f37534e437726",
+        "blake2b_256": "0ace0fb6282b56ba71abf5a66af1603ac29cf51dab0150e37ed9e83d6ab3389b"
+      },
+      "upload_time": "2026-10-22T05:55:20",
+      "upload_time_iso_8601": "2026-10-22T05:55:20.62359Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/18/26/8dd148997b0ca8f3a6f5cd8b1b691bc9ee86279b016a3be02851a9364123/ry-0.0.104-cp311-cp311-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "eddd01434bf670c8f2210c2d057a5d7a",
+      "size": 7003792,
+      "digests": {
+        "md5": "eddd01434bf670c8f2210c2d057a5d7a",
+        "sha256": "8824859a285f6a397abcb5390064e7b8aa57064f7c339ac8206006803748b884",
+        "blake2b_256": "18268dd148997b0ca8f3a6f5cd8b1b691bc9ee86279b016a3be02851a9364123"
+      },
+      "upload_time": "2026-10-22T05:55:22",
+      "upload_time_iso_8601": "2026-10-22T05:55:22.750608Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/8f/85/60199b1031d050c03a5f809c1ac953937ae7e58cde0e88dd349f1701bc24/ry-0.0.104-cp311-cp311-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp311-cp311-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "abb63637827088044a144499e6b603c6",
+      "size": 6832980,
+      "digests": {
+        "md5": "abb63637827088044a144499e6b603c6",
+        "sha256": "b3293fac387a4df6a6dbc131da3e361f5c0d3745cd1f63b049c9111e28dac6fb",
+        "blake2b_256": "8f8560199b1031d050c03a5f809c1ac953937ae7e58cde0e88dd349f1701bc24"
+      },
+      "upload_time": "2026-10-22T05:55:24",
+      "upload_time_iso_8601": "2026-10-22T05:55:24.157449Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/aa/96/47216f80705bfaeba7a1f3ae1b081aba0ae1ddc20f9391441bd17057f700/ry-0.0.104-cp311-cp311-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp311-cp311-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "597f3dcf05232d1672c28dfde6e32c57",
+      "size": 6971502,
+      "digests": {
+        "md5": "597f3dcf05232d1672c28dfde6e32c57",
+        "sha256": "6481a01af0f12aea30c953c01a7ead7cfa1fbc81f9a06287c9edb48128ffaec8",
+        "blake2b_256": "aa9647216f80705bfaeba7a1f3ae1b081aba0ae1ddc20f9391441bd17057f700"
+      },
+      "upload_time": "2026-10-22T05:55:25",
+      "upload_time_iso_8601": "2026-10-22T05:55:25.886587Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3a/a7/61aae008e3f9595bb4d60d14ae85e91acc5bf581ea4d42e6016c021b62e4/ry-0.0.104-cp311-cp311-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "a355809d237e600fbb31bec2f20dd176",
+      "size": 7435983,
+      "digests": {
+        "md5": "a355809d237e600fbb31bec2f20dd176",
+        "sha256": "b9ffba9025276108cd924941a56152fc482845ab08c05b91af247007e0a5a2dd",
+        "blake2b_256": "3aa761aae008e3f9595bb4d60d14ae85e91acc5bf581ea4d42e6016c021b62e4"
+      },
+      "upload_time": "2026-10-22T05:55:27",
+      "upload_time_iso_8601": "2026-10-22T05:55:27.705682Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/2d/61/a4a8b7a9632735cf2d7ed06825c9351ca2bc02103639fcbd59aa06d41791/ry-0.0.104-cp311-cp311-win32.whl",
+      "filename": "ry-0.0.104-cp311-cp311-win32.whl",
+      "version": "0.0.104",
+      "md5_digest": "bce4498acd0f021cf5459b9770f50636",
+      "size": 6117432,
+      "digests": {
+        "md5": "bce4498acd0f021cf5459b9770f50636",
+        "sha256": "d77b281ac26d93a2b5f39afded4b23706ac66771b2f0f014d562adf00c49484d",
+        "blake2b_256": "2d61a4a8b7a9632735cf2d7ed06825c9351ca2bc02103639fcbd59aa06d41791"
+      },
+      "upload_time": "2026-10-22T05:55:29",
+      "upload_time_iso_8601": "2026-10-22T05:55:29.467271Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/96/aa/543919eec0ff4551899178c3a2acd3099fa7b2f591e203b15c33890bb9b5/ry-0.0.104-cp311-cp311-win_amd64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-win_amd64.whl",
+      "version": "0.0.104",
+      "md5_digest": "bbbdef9cfc8d89c229b74b224868861f",
+      "size": 6481947,
+      "digests": {
+        "md5": "bbbdef9cfc8d89c229b74b224868861f",
+        "sha256": "15c369ac5fdda992fdd3e3ca0d898916eed353322c2736a964cbca71b40cb13c",
+        "blake2b_256": "96aa543919eec0ff4551899178c3a2acd3099fa7b2f591e203b15c33890bb9b5"
+      },
+      "upload_time": "2026-10-22T05:55:30",
+      "upload_time_iso_8601": "2026-10-22T05:55:30.961942Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/21/bb/abd2946cb3eea8af7e7059532d48fe835b6d32e920da4ec493c69d244055/ry-0.0.104-cp311-cp311-win_arm64.whl",
+      "filename": "ry-0.0.104-cp311-cp311-win_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "f94b757454900a243c326c00fb2357e1",
+      "size": 6325299,
+      "digests": {
+        "md5": "f94b757454900a243c326c00fb2357e1",
+        "sha256": "c981cf8280167a1c4ebeb7518a16dad95530cd14700905144ee6e87b1e88663c",
+        "blake2b_256": "21bbabd2946cb3eea8af7e7059532d48fe835b6d32e920da4ec493c69d244055"
+      },
+      "upload_time": "2026-10-22T05:55:32",
+      "upload_time_iso_8601": "2026-10-22T05:55:32.381038Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/5c/e5/0077ebf88d69fac92806e78212187a761cb2a03f63ff85c6d285f69570e1/ry-0.0.104-cp312-cp312-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "84558ff3fa2e8b84da0b79533a610a8c",
+      "size": 6385536,
+      "digests": {
+        "md5": "84558ff3fa2e8b84da0b79533a610a8c",
+        "sha256": "c7f864bd8190bb37db6b0a15e20901dc4d4a6c18101d42a19e80282dd1c5bbef",
+        "blake2b_256": "5ce50077ebf88d69fac92806e78212187a761cb2a03f63ff85c6d285f69570e1"
+      },
+      "upload_time": "2026-10-22T05:55:33",
+      "upload_time_iso_8601": "2026-10-22T05:55:33.894518Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/7a/18/8b11ebcc7140470386d47ca69bc8579babb30f0459ae7aeafc5efa886923/ry-0.0.104-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "ab9f80d9fc31badde4a5d81c4f76b734",
+      "size": 7031664,
+      "digests": {
+        "md5": "ab9f80d9fc31badde4a5d81c4f76b734",
+        "sha256": "c3780bc93f2a16315cd9eee1d72e0b16ca9d6f3fee49d7bf871a0f4852274037",
+        "blake2b_256": "7a188b11ebcc7140470386d47ca69bc8579babb30f0459ae7aeafc5efa886923"
+      },
+      "upload_time": "2026-10-22T05:55:35",
+      "upload_time_iso_8601": "2026-10-22T05:55:35.297198Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/81/8b/8615f188bfaaff01fadd94f5d3b6e9e5551d09a67f23c66fc813259cbfe2/ry-0.0.104-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "2394ada5adc5ea49a1ff30a23da930b3",
+      "size": 7276368,
+      "digests": {
+        "md5": "2394ada5adc5ea49a1ff30a23da930b3",
+        "sha256": "5b9cd19e8f59931fcbace6b212b432b45a811493d80075a9f44cd3dec0e83da5",
+        "blake2b_256": "818b8615f188bfaaff01fadd94f5d3b6e9e5551d09a67f23c66fc813259cbfe2"
+      },
+      "upload_time": "2026-10-22T05:55:37",
+      "upload_time_iso_8601": "2026-10-22T05:55:37.001636Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/fa/36/cad103555939b68ec0976daf52a1de833d2a0fbbbc6e9d082ce9a9381d28/ry-0.0.104-cp312-cp312-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "ac14927b09a5f107780ea70aa51e2a08",
+      "size": 6888739,
+      "digests": {
+        "md5": "ac14927b09a5f107780ea70aa51e2a08",
+        "sha256": "40e45a9fa4657f57db674cb569ef128fbbd2812675b5753056c8968407ac8c22",
+        "blake2b_256": "fa36cad103555939b68ec0976daf52a1de833d2a0fbbbc6e9d082ce9a9381d28"
+      },
+      "upload_time": "2026-10-22T05:55:38",
+      "upload_time_iso_8601": "2026-10-22T05:55:38.721551Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/89/15/0711e24b50804e872ef03acbf5b7f2d7706bb50ec59e8b523f59f4378add/ry-0.0.104-cp312-cp312-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp312-cp312-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "2accaf12cb927621e179cb08578004d0",
+      "size": 6682560,
+      "digests": {
+        "md5": "2accaf12cb927621e179cb08578004d0",
+        "sha256": "576c68947fef715117dd8ccabfc6427db9f2d4d3e4ce4399da6c7aa06b8deb7a",
+        "blake2b_256": "89150711e24b50804e872ef03acbf5b7f2d7706bb50ec59e8b523f59f4378add"
+      },
+      "upload_time": "2026-10-22T05:55:40",
+      "upload_time_iso_8601": "2026-10-22T05:55:40.176031Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a8/2b/a3dcc4e83b9c5614e7aa1e7d5a06e24d9a7e1de4dda5e826d891dc3581b0/ry-0.0.104-cp312-cp312-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp312-cp312-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "0a7b8fcf6e01b61d15c7362fbcaf7df0",
+      "size": 7115898,
+      "digests": {
+        "md5": "0a7b8fcf6e01b61d15c7362fbcaf7df0",
+        "sha256": "92ba5df471c67101f9f6b99550b536aaf4a87d5927ca698eac0925360bef16ed",
+        "blake2b_256": "a82ba3dcc4e83b9c5614e7aa1e7d5a06e24d9a7e1de4dda5e826d891dc3581b0"
+      },
+      "upload_time": "2026-10-22T05:55:41",
+      "upload_time_iso_8601": "2026-10-22T05:55:41.634625Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/e0/39/8af39857123a7c437193cbfe07d979cabe1a7b8ec110796014876b9d7dae/ry-0.0.104-cp312-cp312-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "3a424cd9817ea33e636010517e6dc350",
+      "size": 7014914,
+      "digests": {
+        "md5": "3a424cd9817ea33e636010517e6dc350",
+        "sha256": "9475e662ea3591a3b7d05d46d1ee4b47b9f39d37f3cb6852945203a455759e06",
+        "blake2b_256": "e0398af39857123a7c437193cbfe07d979cabe1a7b8ec110796014876b9d7dae"
+      },
+      "upload_time": "2026-10-22T05:55:43",
+      "upload_time_iso_8601": "2026-10-22T05:55:43.989048Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/83/4e/b7fa05f325f6ffebcea5716414d24f5586b40d49411ab8f038d3915e52f9/ry-0.0.104-cp312-cp312-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp312-cp312-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "4ee24360e7bb0a6070cbc80a1a6023eb",
+      "size": 6813248,
+      "digests": {
+        "md5": "4ee24360e7bb0a6070cbc80a1a6023eb",
+        "sha256": "e08ed6694bbcd2885a7091910bf6339cf9d7cec708d23ccdc11a01ac66cda561",
+        "blake2b_256": "834eb7fa05f325f6ffebcea5716414d24f5586b40d49411ab8f038d3915e52f9"
+      },
+      "upload_time": "2026-10-22T05:55:45",
+      "upload_time_iso_8601": "2026-10-22T05:55:45.466102Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/7d/1d/2688d5e91085849756d4632ac7358648dd271f097b1af8b2082432063c9b/ry-0.0.104-cp312-cp312-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp312-cp312-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "5a49d2ba18cb0f62d22dd13dda043869",
+      "size": 6949616,
+      "digests": {
+        "md5": "5a49d2ba18cb0f62d22dd13dda043869",
+        "sha256": "e2fba4fc4865f15a17ad763f03ed7de84075876ebc49c4f4efed5f97e79f92aa",
+        "blake2b_256": "7d1d2688d5e91085849756d4632ac7358648dd271f097b1af8b2082432063c9b"
+      },
+      "upload_time": "2026-10-22T05:55:47",
+      "upload_time_iso_8601": "2026-10-22T05:55:47.270595Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/b1/6a/c9d467e8d48d1c3496929c2e5418be1da27628482ba8e05220f61acbb9f2/ry-0.0.104-cp312-cp312-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "d7a39c6a053fb8c5183993e0aed35477",
+      "size": 7463475,
+      "digests": {
+        "md5": "d7a39c6a053fb8c5183993e0aed35477",
+        "sha256": "86bab63619c829bc0b36033cc63a31d2ba5b8f16eabc29dd2f4bf46cefaadd79",
+        "blake2b_256": "b16ac9d467e8d48d1c3496929c2e5418be1da27628482ba8e05220f61acbb9f2"
+      },
+      "upload_time": "2026-10-22T05:55:49",
+      "upload_time_iso_8601": "2026-10-22T05:55:49.444644Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/ae/e3/3863d94a5c5b5cb324bc582511adc3cdde43df01eb13db9325c5667d6a6e/ry-0.0.104-cp312-cp312-win32.whl",
+      "filename": "ry-0.0.104-cp312-cp312-win32.whl",
+      "version": "0.0.104",
+      "md5_digest": "036764a19d58bb9aba32c20a0462ffd8",
+      "size": 6102781,
+      "digests": {
+        "md5": "036764a19d58bb9aba32c20a0462ffd8",
+        "sha256": "7d8cfdbdd8132069102deeb8b8c6fdb7fd2dd8090a4bc3a1edb131996a4c1996",
+        "blake2b_256": "aee33863d94a5c5b5cb324bc582511adc3cdde43df01eb13db9325c5667d6a6e"
+      },
+      "upload_time": "2026-10-22T05:55:51",
+      "upload_time_iso_8601": "2026-10-22T05:55:51.334833Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4a/41/502b54a0bc5431a9a419f2512e29f02f429ef4771f2e777b164ece07214d/ry-0.0.104-cp312-cp312-win_amd64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-win_amd64.whl",
+      "version": "0.0.104",
+      "md5_digest": "9e0828b04236633fd16fedc8f4efddcd",
+      "size": 6515317,
+      "digests": {
+        "md5": "9e0828b04236633fd16fedc8f4efddcd",
+        "sha256": "2e5626b6cfc88c6f9208ccc5e9ed06a0e8846eb463ded5db86e19effd8273fd8",
+        "blake2b_256": "4a41502b54a0bc5431a9a419f2512e29f02f429ef4771f2e777b164ece07214d"
+      },
+      "upload_time": "2026-10-22T05:55:52",
+      "upload_time_iso_8601": "2026-10-22T05:55:52.846721Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/75/fb/efccc9b0740af8f1c2bcbf9fa50cb10ce2bc977199f47701d8764e5591c9/ry-0.0.104-cp312-cp312-win_arm64.whl",
+      "filename": "ry-0.0.104-cp312-cp312-win_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "6b803ddba7b52bed57a42b56a3416a20",
+      "size": 6347744,
+      "digests": {
+        "md5": "6b803ddba7b52bed57a42b56a3416a20",
+        "sha256": "cd79f7e9f6a58a0c2106fab9f76eea03501b26af2a3079d562f569a8442f974f",
+        "blake2b_256": "75fbefccc9b0740af8f1c2bcbf9fa50cb10ce2bc977199f47701d8764e5591c9"
+      },
+      "upload_time": "2026-10-22T05:55:54",
+      "upload_time_iso_8601": "2026-10-22T05:55:54.4376Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/0e/dc/cdb10c8760b4475696123f9d0246bdb2b2a6b9c1753883f2c7b677c0822a/ry-0.0.104-cp313-cp313-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "9064aa3c3e820200f67cbbed33d696a3",
+      "size": 6384908,
+      "digests": {
+        "md5": "9064aa3c3e820200f67cbbed33d696a3",
+        "sha256": "aeb2b36b4f0559142c1709a7aeaee0e155770dedf3fd2bb2e7b20da9f968b82f",
+        "blake2b_256": "0edccdb10c8760b4475696123f9d0246bdb2b2a6b9c1753883f2c7b677c0822a"
+      },
+      "upload_time": "2026-10-22T05:55:56",
+      "upload_time_iso_8601": "2026-10-22T05:55:56.106748Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/00/8a/800f97c2241ebe5878ac2797baa472880dd8a64a8a07d3d85f04fe23b610/ry-0.0.104-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "8d177ab9d1bf452b666a0959bb72aeb9",
+      "size": 7031300,
+      "digests": {
+        "md5": "8d177ab9d1bf452b666a0959bb72aeb9",
+        "sha256": "c4c64f7d2ca8878e5f5d1972e418f9ba47efab5bb8fa5b08d9176ecb30059c97",
+        "blake2b_256": "008a800f97c2241ebe5878ac2797baa472880dd8a64a8a07d3d85f04fe23b610"
+      },
+      "upload_time": "2026-10-22T05:55:57",
+      "upload_time_iso_8601": "2026-10-22T05:55:57.577639Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/94/4d/f9e2fb13be4a2cf678667d5fcf36f7a0956b154413784e3e840263c551bb/ry-0.0.104-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "9e742f47684821b2d1fe32006b0bcc26",
+      "size": 7276735,
+      "digests": {
+        "md5": "9e742f47684821b2d1fe32006b0bcc26",
+        "sha256": "2dce2b8f734b9e17f1d525380c34745fcc80815d2e9cbbfc1b81c4a3d6eec2a9",
+        "blake2b_256": "944df9e2fb13be4a2cf678667d5fcf36f7a0956b154413784e3e840263c551bb"
+      },
+      "upload_time": "2026-10-22T05:55:59",
+      "upload_time_iso_8601": "2026-10-22T05:55:59.109799Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/27/9b/428fcbacaab2c6399b8d4b150fa46d1fc78c34051528288edbfe7f17d3b2/ry-0.0.104-cp313-cp313-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "b921836c270cc8aa1603a784cb68ab6c",
+      "size": 6888704,
+      "digests": {
+        "md5": "b921836c270cc8aa1603a784cb68ab6c",
+        "sha256": "68c5a68a3913b32d44c7cd7e3405a1ca66f2bd2250562abf17968b3ec070005f",
+        "blake2b_256": "279b428fcbacaab2c6399b8d4b150fa46d1fc78c34051528288edbfe7f17d3b2"
+      },
+      "upload_time": "2026-10-22T05:56:00",
+      "upload_time_iso_8601": "2026-10-22T05:56:00.719545Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/f1/a6/ab3e1403ed06f94b47b4fce94b77e223fbb28fed752690d32435973e9f43/ry-0.0.104-cp313-cp313-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp313-cp313-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "881eeed5cd1ee712e233808e09527394",
+      "size": 6682596,
+      "digests": {
+        "md5": "881eeed5cd1ee712e233808e09527394",
+        "sha256": "fbc4689ac927ee8a194924c6e840709d62d8031b617a401ffe16fb30ce2fbd8a",
+        "blake2b_256": "f1a6ab3e1403ed06f94b47b4fce94b77e223fbb28fed752690d32435973e9f43"
+      },
+      "upload_time": "2026-10-22T05:56:02",
+      "upload_time_iso_8601": "2026-10-22T05:56:02.222337Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/69/cd/d95f35e0a561bb492683ecce30a3da4319fc516d2b0706dc643e1a962b0b/ry-0.0.104-cp313-cp313-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp313-cp313-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "ff19aa2a43305bd2de0ff2dedd8d2985",
+      "size": 7116752,
+      "digests": {
+        "md5": "ff19aa2a43305bd2de0ff2dedd8d2985",
+        "sha256": "7a5383b2f1a56c93b4579ae102d7d1ade560f2f6d6c2d05fb06fc262b05d16d4",
+        "blake2b_256": "69cdd95f35e0a561bb492683ecce30a3da4319fc516d2b0706dc643e1a962b0b"
+      },
+      "upload_time": "2026-10-22T05:56:03",
+      "upload_time_iso_8601": "2026-10-22T05:56:03.585413Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/94/ff/5dc47bd39ae19c7246c2a6b84588a567ad2771ebc15046450753b4e17af1/ry-0.0.104-cp313-cp313-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "a690466517fea48043fdb46f8026bd59",
+      "size": 7014249,
+      "digests": {
+        "md5": "a690466517fea48043fdb46f8026bd59",
+        "sha256": "745fa69d9ed0e275f257766374723d4e96489448a8f9e479e493079957c600c4",
+        "blake2b_256": "94ff5dc47bd39ae19c7246c2a6b84588a567ad2771ebc15046450753b4e17af1"
+      },
+      "upload_time": "2026-10-22T05:56:05",
+      "upload_time_iso_8601": "2026-10-22T05:56:05.065971Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/f8/bb/e94775a99ce8fe10fb4fe559dd0063c56b2da585b4c64d660f429052a72d/ry-0.0.104-cp313-cp313-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp313-cp313-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "e9a40a0743db87c1d5d154c4f8dafd68",
+      "size": 6813272,
+      "digests": {
+        "md5": "e9a40a0743db87c1d5d154c4f8dafd68",
+        "sha256": "da3ee18b2b067c1f1973dfaf32329d99e057373d79d41870d469fd9037b0c391",
+        "blake2b_256": "f8bbe94775a99ce8fe10fb4fe559dd0063c56b2da585b4c64d660f429052a72d"
+      },
+      "upload_time": "2026-10-22T05:56:06",
+      "upload_time_iso_8601": "2026-10-22T05:56:06.638671Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3b/ba/cee4ff1d3d54b09e48fb1c05ea204d4613abf9c6ab0c6036a72a3359ee8d/ry-0.0.104-cp313-cp313-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp313-cp313-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "045bac50db21cd24164001dcf6b48bf2",
+      "size": 6949652,
+      "digests": {
+        "md5": "045bac50db21cd24164001dcf6b48bf2",
+        "sha256": "23f46cbc2dbddd42188ee32882e103a454beb2477a324b4b17f63a01b95f2608",
+        "blake2b_256": "3bbacee4ff1d3d54b09e48fb1c05ea204d4613abf9c6ab0c6036a72a3359ee8d"
+      },
+      "upload_time": "2026-10-22T05:56:08",
+      "upload_time_iso_8601": "2026-10-22T05:56:08.574019Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/49/88/6fcf91f81682a454c2202f013b172baa3c26c5eee0702ab88b0f7c08a827/ry-0.0.104-cp313-cp313-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "a8e1461fe9821bc292887072f10d111c",
+      "size": 7463622,
+      "digests": {
+        "md5": "a8e1461fe9821bc292887072f10d111c",
+        "sha256": "b5c4c3958619419b333bf964c7f519d4d0d5d8a93e19f12be2fc4fcc819f8c68",
+        "blake2b_256": "49886fcf91f81682a454c2202f013b172baa3c26c5eee0702ab88b0f7c08a827"
+      },
+      "upload_time": "2026-10-22T05:56:10",
+      "upload_time_iso_8601": "2026-10-22T05:56:10.060397Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4b/f7/0b2d0aff250fe76d47d6f6f7137f959fd2fcfe76088c5fcef7bcbd7e53c9/ry-0.0.104-cp313-cp313-win32.whl",
+      "filename": "ry-0.0.104-cp313-cp313-win32.whl",
+      "version": "0.0.104",
+      "md5_digest": "ef426f070835f567abc1a3f72ef4c0a0",
+      "size": 6102556,
+      "digests": {
+        "md5": "ef426f070835f567abc1a3f72ef4c0a0",
+        "sha256": "969b5f48043611792e52dbc9dd208b49a4939bc1fa499a66b6b9e199dc172d0a",
+        "blake2b_256": "4bf70b2d0aff250fe76d47d6f6f7137f959fd2fcfe76088c5fcef7bcbd7e53c9"
+      },
+      "upload_time": "2026-10-22T05:56:11",
+      "upload_time_iso_8601": "2026-10-22T05:56:11.575451Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/6e/62/ef4b15d37cfcd5fb52569d1a76d1f079d0498907c5d263059ce5f97044dc/ry-0.0.104-cp313-cp313-win_amd64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-win_amd64.whl",
+      "version": "0.0.104",
+      "md5_digest": "9b401371dfcfb6e36010a991130c143c",
+      "size": 6516078,
+      "digests": {
+        "md5": "9b401371dfcfb6e36010a991130c143c",
+        "sha256": "de2080fdb0ac3ac09a7863d5c40cea36ff94b14b17c7f0c0957f304f255e378c",
+        "blake2b_256": "6e62ef4b15d37cfcd5fb52569d1a76d1f079d0498907c5d263059ce5f97044dc"
+      },
+      "upload_time": "2026-10-22T05:56:13",
+      "upload_time_iso_8601": "2026-10-22T05:56:13.075228Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4f/a6/adfb066fe5106aeb4708a4e50319a0c4be3afde10262f09b9e9e4176ba35/ry-0.0.104-cp313-cp313-win_arm64.whl",
+      "filename": "ry-0.0.104-cp313-cp313-win_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "155ba88838273ee34bd9baaabf7e725f",
+      "size": 6347201,
+      "digests": {
+        "md5": "155ba88838273ee34bd9baaabf7e725f",
+        "sha256": "4c7904d33df351420fed13012b78d49dd247620c5f21c3b146483a37669cf47b",
+        "blake2b_256": "4fa6adfb066fe5106aeb4708a4e50319a0c4be3afde10262f09b9e9e4176ba35"
+      },
+      "upload_time": "2026-10-22T05:56:14",
+      "upload_time_iso_8601": "2026-10-22T05:56:14.791576Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/c7/83/e0876e951b133879dd63aac5cbc9ceaea4eecd59794b91a45c441d2715d3/ry-0.0.104-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "6a42acf50666b85fdeb31b51a22ddc22",
+      "size": 6376584,
+      "digests": {
+        "md5": "6a42acf50666b85fdeb31b51a22ddc22",
+        "sha256": "2bc653bf0ff726c29b3c70f335aa55151efba94e383fc521c9bc81a16f2f3fa0",
+        "blake2b_256": "c783e0876e951b133879dd63aac5cbc9ceaea4eecd59794b91a45c441d2715d3"
+      },
+      "upload_time": "2026-10-22T05:56:16",
+      "upload_time_iso_8601": "2026-10-22T05:56:16.263646Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/7e/c0/9c88bf4f452812e0862fd0379e05318783a9631dc9c8df826b66e7809f1a/ry-0.0.104-cp314-cp314-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp314-cp314-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "d3e1ba86113df3f49d084f8cfb6fe432",
+      "size": 7029722,
+      "digests": {
+        "md5": "d3e1ba86113df3f49d084f8cfb6fe432",
+        "sha256": "dd54779e37febd15eb1456bd17b6e1de7da92c907c9c90f30f9d13dd5293b580",
+        "blake2b_256": "7ec09c88bf4f452812e0862fd0379e05318783a9631dc9c8df826b66e7809f1a"
+      },
+      "upload_time": "2026-10-22T05:56:17",
+      "upload_time_iso_8601": "2026-10-22T05:56:17.946059Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/54/cb/f6ccb1ed54a64dfebf98510fad993552433dfebcd4f709f7d9eecb4f11ac/ry-0.0.104-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "e53c1d5fe9a5deca28ac856ccdb2c412",
+      "size": 7277261,
+      "digests": {
+        "md5": "e53c1d5fe9a5deca28ac856ccdb2c412",
+        "sha256": "52707c9fac3fac9179478e20f281c3ee48142e95c88963ac93975f681a7ea57f",
+        "blake2b_256": "54cbf6ccb1ed54a64dfebf98510fad993552433dfebcd4f709f7d9eecb4f11ac"
+      },
+      "upload_time": "2026-10-22T05:56:19",
+      "upload_time_iso_8601": "2026-10-22T05:56:19.733534Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a8/70/d722f3da084187beeb26640b270d3d00708a849f14176393c4b3291a68b6/ry-0.0.104-cp314-cp314-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "1cdfe85f26d21a32a119593aa0b30e1f",
+      "size": 6889299,
+      "digests": {
+        "md5": "1cdfe85f26d21a32a119593aa0b30e1f",
+        "sha256": "5cfc3fa69cce13875cf7a1eb0e375633d1869e06329f8341e2a17d4a476ff095",
+        "blake2b_256": "a870d722f3da084187beeb26640b270d3d00708a849f14176393c4b3291a68b6"
+      },
+      "upload_time": "2026-10-22T05:56:21",
+      "upload_time_iso_8601": "2026-10-22T05:56:21.589017Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/19/99/28c8027dc52d2a7fe1f4d455f0939c13293a0448fe405219d4e54e3cc2cf/ry-0.0.104-cp314-cp314-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp314-cp314-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "ee5984352319954bfeac5b8ac411a769",
+      "size": 6681720,
+      "digests": {
+        "md5": "ee5984352319954bfeac5b8ac411a769",
+        "sha256": "7f5b86b88c3eefac64a85fb13fc495397c3a3c0942b1875dc3591979aa19b23b",
+        "blake2b_256": "199928c8027dc52d2a7fe1f4d455f0939c13293a0448fe405219d4e54e3cc2cf"
+      },
+      "upload_time": "2026-10-22T05:56:23",
+      "upload_time_iso_8601": "2026-10-22T05:56:23.183755Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/06/2f/79b36e2fcd0573d201df4132cba5e51242630805096ae03b8db6e2b86dfb/ry-0.0.104-cp314-cp314-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp314-cp314-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "1339a133d2061038de6904418682aabc",
+      "size": 7114115,
+      "digests": {
+        "md5": "1339a133d2061038de6904418682aabc",
+        "sha256": "b998e7db7f46b1bd5a2bbc7ab28d11eaa11f0721f96c9da2464c423b812ba09e",
+        "blake2b_256": "062f79b36e2fcd0573d201df4132cba5e51242630805096ae03b8db6e2b86dfb"
+      },
+      "upload_time": "2026-10-22T05:56:24",
+      "upload_time_iso_8601": "2026-10-22T05:56:24.658987Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/36/8f/02ecc1fda44a7ace419383f1af9d1805bb96ac2e5995521a1a9ffd3214bc/ry-0.0.104-cp314-cp314-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "7af5b0e5508adc1fc11cbbd1ec97f253",
+      "size": 7013219,
+      "digests": {
+        "md5": "7af5b0e5508adc1fc11cbbd1ec97f253",
+        "sha256": "f992f44e7aa9390d39a845318f5487e6da00c01bd931ae48768d58dac0ecdc61",
+        "blake2b_256": "368f02ecc1fda44a7ace419383f1af9d1805bb96ac2e5995521a1a9ffd3214bc"
+      },
+      "upload_time": "2026-10-22T05:56:26",
+      "upload_time_iso_8601": "2026-10-22T05:56:26.143833Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/91/87/57b7bc26f2f40be6061bbc3b070739e6b29516962cfa881e2348ec9dbf9c/ry-0.0.104-cp314-cp314-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp314-cp314-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "9c5fd42f7a330d21bbe4fd8c783e6319",
+      "size": 6811188,
+      "digests": {
+        "md5": "9c5fd42f7a330d21bbe4fd8c783e6319",
+        "sha256": "d07b50615a766ba3cf6ff6ed02c11b8b66907224978930e493e26d68b3e23d71",
+        "blake2b_256": "918757b7bc26f2f40be6061bbc3b070739e6b29516962cfa881e2348ec9dbf9c"
+      },
+      "upload_time": "2026-10-22T05:56:27",
+      "upload_time_iso_8601": "2026-10-22T05:56:27.707343Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/26/2d/d0560c21a1ff06334990c167f29e95fa402f444a29e769da12da4337c559/ry-0.0.104-cp314-cp314-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp314-cp314-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "6523e59ea78823967344e6a40bb9b900",
+      "size": 6946751,
+      "digests": {
+        "md5": "6523e59ea78823967344e6a40bb9b900",
+        "sha256": "aa699dff3dae21d58820aac8cfdb24c97dba11c02a7777efe310430acf23972e",
+        "blake2b_256": "262dd0560c21a1ff06334990c167f29e95fa402f444a29e769da12da4337c559"
+      },
+      "upload_time": "2026-10-22T05:56:29",
+      "upload_time_iso_8601": "2026-10-22T05:56:29.395145Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/67/db/5e00877234c1789f49f07cc4025eb448be855fa9aff3b7bc7485016171a0/ry-0.0.104-cp314-cp314-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "c14546805a3391fb4fd6ae5a437aa293",
+      "size": 7462686,
+      "digests": {
+        "md5": "c14546805a3391fb4fd6ae5a437aa293",
+        "sha256": "2f16a3e1a9b23a9dc2c530c0b36204d63f55c2b98fb38310a235e61be95fe0be",
+        "blake2b_256": "67db5e00877234c1789f49f07cc4025eb448be855fa9aff3b7bc7485016171a0"
+      },
+      "upload_time": "2026-10-22T05:56:31",
+      "upload_time_iso_8601": "2026-10-22T05:56:31.269784Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/1c/d5/8dfbb90348e985b49a8a32d01735fb6b96c28c719594e5250f8280a35a80/ry-0.0.104-cp314-cp314t-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "3da24bb1383e82b7bb1d516da326fa90",
+      "size": 6350772,
+      "digests": {
+        "md5": "3da24bb1383e82b7bb1d516da326fa90",
+        "sha256": "d0e0e7ab29f0a9bbcdd9261182408cb617a6e5abdd837d1b3a0efba52382a231",
+        "blake2b_256": "1cd58dfbb90348e985b49a8a32d01735fb6b96c28c719594e5250f8280a35a80"
+      },
+      "upload_time": "2026-10-22T05:56:37",
+      "upload_time_iso_8601": "2026-10-22T05:56:37.62054Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/6d/b7/6e94013579977a43776f5123aa4c48fcbab49239777a3fa6f532767fb4c3/ry-0.0.104-cp314-cp314t-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "263b7c571b27a119c2506614715ead73",
+      "size": 6991111,
+      "digests": {
+        "md5": "263b7c571b27a119c2506614715ead73",
+        "sha256": "4ba640b2fc022ccc7d544919b898b3edbd5946e8ca2608770405a3e21ba0d2fc",
+        "blake2b_256": "6db76e94013579977a43776f5123aa4c48fcbab49239777a3fa6f532767fb4c3"
+      },
+      "upload_time": "2026-10-22T05:56:39",
+      "upload_time_iso_8601": "2026-10-22T05:56:39.915223Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/72/ef/123c99cdf4415af15ccdde7a9002143332607db19a107f09b6c136cfd3a8/ry-0.0.104-cp314-cp314t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "0a75c3d4d2850ecd05360d468839f43f",
+      "size": 7246386,
+      "digests": {
+        "md5": "0a75c3d4d2850ecd05360d468839f43f",
+        "sha256": "4c55a301d4f1c912c7d9837f9306a27a7c350ffbaf70d4429f66834106d9bdd8",
+        "blake2b_256": "72ef123c99cdf4415af15ccdde7a9002143332607db19a107f09b6c136cfd3a8"
+      },
+      "upload_time": "2026-10-22T05:56:41",
+      "upload_time_iso_8601": "2026-10-22T05:56:41.455265Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/27/1a/8441678f9187a1c77bc8ccf5e3dcc2c00cf429cc8ec9559802a78935f2d6/ry-0.0.104-cp314-cp314t-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "edae9ab85ea12f57884fb87a495e544a",
+      "size": 6850965,
+      "digests": {
+        "md5": "edae9ab85ea12f57884fb87a495e544a",
+        "sha256": "b613fb31c725067b3ddd46b5e08213698416a98cdc97e60194f64edf34837195",
+        "blake2b_256": "271a8441678f9187a1c77bc8ccf5e3dcc2c00cf429cc8ec9559802a78935f2d6"
+      },
+      "upload_time": "2026-10-22T05:56:43",
+      "upload_time_iso_8601": "2026-10-22T05:56:43.185398Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/de/ec/6e70ba1683c5552786539a94531464f85cf7a079ea25a74d138b179f50ca/ry-0.0.104-cp314-cp314t-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "21d5cecc39ea66bda9264818f216fda1",
+      "size": 6644419,
+      "digests": {
+        "md5": "21d5cecc39ea66bda9264818f216fda1",
+        "sha256": "a61c63dbb141bfe29b9503d06d03cc89b67499ad9a50ce37c9ba1477ea0dac9b",
+        "blake2b_256": "deec6e70ba1683c5552786539a94531464f85cf7a079ea25a74d138b179f50ca"
+      },
+      "upload_time": "2026-10-22T05:56:44",
+      "upload_time_iso_8601": "2026-10-22T05:56:44.781645Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/33/f2/aaf0ad088263c3d5c28c9377e33208c955052eb9f2840e7e12a3608a68c8/ry-0.0.104-cp314-cp314t-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "3a9df62a661465be8ecff9231e13308a",
+      "size": 7086035,
+      "digests": {
+        "md5": "3a9df62a661465be8ecff9231e13308a",
+        "sha256": "0b4a8dd276d8d86c1df52c3ac1858b013b644efe3ba1a652117c890b64f7d739",
+        "blake2b_256": "33f2aaf0ad088263c3d5c28c9377e33208c955052eb9f2840e7e12a3608a68c8"
+      },
+      "upload_time": "2026-10-22T05:56:46",
+      "upload_time_iso_8601": "2026-10-22T05:56:46.367666Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3b/af/537ceb6ed955ea17327171a7e0581cb6768f0db2df09cc643523be0f5e09/ry-0.0.104-cp314-cp314t-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "33e64ea5926618cac26acc207b18a885",
+      "size": 6976251,
+      "digests": {
+        "md5": "33e64ea5926618cac26acc207b18a885",
+        "sha256": "0e6d49df9ce615d48741f8e65184046cc1bcfa3f8927022358f9afeca839b31f",
+        "blake2b_256": "3baf537ceb6ed955ea17327171a7e0581cb6768f0db2df09cc643523be0f5e09"
+      },
+      "upload_time": "2026-10-22T05:56:47",
+      "upload_time_iso_8601": "2026-10-22T05:56:47.871951Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/cc/12/2ae4b1ed8db5a08ebec4de8f7d23cbe96b88d59d843ede2535a04012490b/ry-0.0.104-cp314-cp314t-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "1b226609c9fcf87d36f8c2e4dbf0497c",
+      "size": 6771337,
+      "digests": {
+        "md5": "1b226609c9fcf87d36f8c2e4dbf0497c",
+        "sha256": "dbeb44cc37caaa5dc25343535f4425d0def1f0e7c3f4f8ff97601e9130e0ed28",
+        "blake2b_256": "cc122ae4b1ed8db5a08ebec4de8f7d23cbe96b88d59d843ede2535a04012490b"
+      },
+      "upload_time": "2026-10-22T05:56:49",
+      "upload_time_iso_8601": "2026-10-22T05:56:49.390943Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/27/34/1aee97c4a9f3c3ce6dba681f27f0c1853eaa2dea7b6b1c76b58e672006d7/ry-0.0.104-cp314-cp314t-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "200558adee9ccd5255f44489f849cc6d",
+      "size": 6914632,
+      "digests": {
+        "md5": "200558adee9ccd5255f44489f849cc6d",
+        "sha256": "99d098b9d883b2a16f73c5f27d3f0abb54ad56957d862a429ce1cc513e10ef58",
+        "blake2b_256": "27341aee97c4a9f3c3ce6dba681f27f0c1853eaa2dea7b6b1c76b58e672006d7"
+      },
+      "upload_time": "2026-10-22T05:56:50",
+      "upload_time_iso_8601": "2026-10-22T05:56:50.989724Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/60/2e/8a22daa39aa6414f5936ad4ae0dcee808c42df0fa5d5ca603bba7ae9f7b5/ry-0.0.104-cp314-cp314t-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp314-cp314t-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "d83f97b7c338b79628936169723ff19e",
+      "size": 7425713,
+      "digests": {
+        "md5": "d83f97b7c338b79628936169723ff19e",
+        "sha256": "48499ce8aeec56b92bade3d04a489562b722e49c74f07f7c8db6980b49662f31",
+        "blake2b_256": "602e8a22daa39aa6414f5936ad4ae0dcee808c42df0fa5d5ca603bba7ae9f7b5"
+      },
+      "upload_time": "2026-10-22T05:56:52",
+      "upload_time_iso_8601": "2026-10-22T05:56:52.583425Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/e8/ef/c90a50acb005d276076290866fc398860d45c30085d56a2052b6b8212a65/ry-0.0.104-cp314-cp314-win32.whl",
+      "filename": "ry-0.0.104-cp314-cp314-win32.whl",
+      "version": "0.0.104",
+      "md5_digest": "14fc0bb98f2c85f1dd2d15f65ba49e92",
+      "size": 6083740,
+      "digests": {
+        "md5": "14fc0bb98f2c85f1dd2d15f65ba49e92",
+        "sha256": "b938aa59da6930d9a073b33203f898e4be538bea0116e597116ba0901c0a800e",
+        "blake2b_256": "e8efc90a50acb005d276076290866fc398860d45c30085d56a2052b6b8212a65"
+      },
+      "upload_time": "2026-10-22T05:56:32",
+      "upload_time_iso_8601": "2026-10-22T05:56:32.733443Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/c9/aa/ab2331bd408a2fee632ef3e2c6edbf35c730ec0fe4ae6a5ce7eae2f6e661/ry-0.0.104-cp314-cp314-win_amd64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-win_amd64.whl",
+      "version": "0.0.104",
+      "md5_digest": "05cce5ccfa83d36526749dc0ede0ca48",
+      "size": 6495432,
+      "digests": {
+        "md5": "05cce5ccfa83d36526749dc0ede0ca48",
+        "sha256": "0e6b0d568d2791c69f2712635415a4d0dc75a674d6285790f80af5e866aacfee",
+        "blake2b_256": "c9aaab2331bd408a2fee632ef3e2c6edbf35c730ec0fe4ae6a5ce7eae2f6e661"
+      },
+      "upload_time": "2026-10-22T05:56:34",
+      "upload_time_iso_8601": "2026-10-22T05:56:34.306878Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4f/24/46a390365478361c5fd7de673706dcca05b8087090ce2b10daf6b78da839/ry-0.0.104-cp314-cp314-win_arm64.whl",
+      "filename": "ry-0.0.104-cp314-cp314-win_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "4677144be6806a2f9c4ae5a668642d75",
+      "size": 6325553,
+      "digests": {
+        "md5": "4677144be6806a2f9c4ae5a668642d75",
+        "sha256": "86d56bebbf3499d45fc8fe953961e79759b5fdf1b6521e52ac5cf69830cc8e6e",
+        "blake2b_256": "4f2446a390365478361c5fd7de673706dcca05b8087090ce2b10daf6b78da839"
+      },
+      "upload_time": "2026-10-22T05:56:36",
+      "upload_time_iso_8601": "2026-10-22T05:56:36.116127Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3d/58/feec102b481d4ea8da65e8e4503dc4b29fcfc456eb16e44ba9f81470d17a/ry-0.0.104-cp315-cp315-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "01338a917e5f5885295737f1d2e9fe41",
+      "size": 6376839,
+      "digests": {
+        "md5": "01338a917e5f5885295737f1d2e9fe41",
+        "sha256": "128149e361c1d334418357f03be3bf32bb820b1673dd76a12b76603e0150bdda",
+        "blake2b_256": "3d58feec102b481d4ea8da65e8e4503dc4b29fcfc456eb16e44ba9f81470d17a"
+      },
+      "upload_time": "2026-10-22T05:56:54",
+      "upload_time_iso_8601": "2026-10-22T05:56:54.397994Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/14/76/a5e2210f8187fcc1745a58477fc45eb4bce038932bcf9979bf669321e6da/ry-0.0.104-cp315-cp315-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp315-cp315-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "9c6af659e7a4830e450ca3bc4a3c928d",
+      "size": 7030134,
+      "digests": {
+        "md5": "9c6af659e7a4830e450ca3bc4a3c928d",
+        "sha256": "f691afdb1a2d5452d3c9f5db2ac410d3e9dbc9d791265c1fd72bb0760a10b64b",
+        "blake2b_256": "1476a5e2210f8187fcc1745a58477fc45eb4bce038932bcf9979bf669321e6da"
+      },
+      "upload_time": "2026-10-22T05:56:55",
+      "upload_time_iso_8601": "2026-10-22T05:56:55.861785Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/87/25/870493bfda2cd1ac9f40008139b77f382c558072a0bc1d73af449d59c0df/ry-0.0.104-cp315-cp315-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "90aa5b8bd9b35ed1bc8f590e65398ad8",
+      "size": 7277556,
+      "digests": {
+        "md5": "90aa5b8bd9b35ed1bc8f590e65398ad8",
+        "sha256": "aaa9b67ba524ee9b18ad6fa13450a608c9d4c6909394a3f538e1a11459a5a4e8",
+        "blake2b_256": "8725870493bfda2cd1ac9f40008139b77f382c558072a0bc1d73af449d59c0df"
+      },
+      "upload_time": "2026-10-22T05:56:57",
+      "upload_time_iso_8601": "2026-10-22T05:56:57.266741Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/0a/2c/0e52703c3d9fb44d37b87df6194ce29323810ce08674c3dbcb0d5aaf93df/ry-0.0.104-cp315-cp315-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "6c62bbca410f707c498e17d694370d31",
+      "size": 6887872,
+      "digests": {
+        "md5": "6c62bbca410f707c498e17d694370d31",
+        "sha256": "a90ee6ac99b7a4c3237f64c90de8d82603002fc50884c118cba66ca06af34a98",
+        "blake2b_256": "0a2c0e52703c3d9fb44d37b87df6194ce29323810ce08674c3dbcb0d5aaf93df"
+      },
+      "upload_time": "2026-10-22T05:56:58",
+      "upload_time_iso_8601": "2026-10-22T05:56:58.760287Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a6/dc/22cd373ba7fa2ff6f82d162e4709a6cc282065abb2381ca350037cedacdb/ry-0.0.104-cp315-cp315-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp315-cp315-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "07a97f7dcbccf47f9d418cb28a1e1d26",
+      "size": 6682059,
+      "digests": {
+        "md5": "07a97f7dcbccf47f9d418cb28a1e1d26",
+        "sha256": "9ecc8e3ed812f6d602ad51c2351b220993553a36af5dc43f7adcba147d0cf7dd",
+        "blake2b_256": "a6dc22cd373ba7fa2ff6f82d162e4709a6cc282065abb2381ca350037cedacdb"
+      },
+      "upload_time": "2026-10-22T05:57:00",
+      "upload_time_iso_8601": "2026-10-22T05:57:00.244988Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/b8/3a/38006ba358a944dbde60d063e8167ff4736f04c0624fec7496798ec99ae9/ry-0.0.104-cp315-cp315-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp315-cp315-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "d874d7b4d7134aab511683b69133906f",
+      "size": 7114117,
+      "digests": {
+        "md5": "d874d7b4d7134aab511683b69133906f",
+        "sha256": "4020205089834f8f0c817ac851e0039d4fdd7a769f0982f187b7e0577e5642df",
+        "blake2b_256": "b83a38006ba358a944dbde60d063e8167ff4736f04c0624fec7496798ec99ae9"
+      },
+      "upload_time": "2026-10-22T05:57:01",
+      "upload_time_iso_8601": "2026-10-22T05:57:01.998869Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/18/2c/4b8d58298a47a84e780fc7c4f326309ace765fac6bdbfee1af78d9e246cf/ry-0.0.104-cp315-cp315-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "0b93d7b67c34dd2287dd429086375197",
+      "size": 7013816,
+      "digests": {
+        "md5": "0b93d7b67c34dd2287dd429086375197",
+        "sha256": "09bf1f9b0b33dcc4ca464ff4061e68cb801138cff0b1bdb3f1cf7f8ab94bafaa",
+        "blake2b_256": "182c4b8d58298a47a84e780fc7c4f326309ace765fac6bdbfee1af78d9e246cf"
+      },
+      "upload_time": "2026-10-22T05:57:03",
+      "upload_time_iso_8601": "2026-10-22T05:57:03.820987Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/1b/24/4db6a17d601765a652511c62ccc28577703978bf21063b8cdc746abb8892/ry-0.0.104-cp315-cp315-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp315-cp315-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "fee775759b7a0945d9285d3128c2d04c",
+      "size": 6811380,
+      "digests": {
+        "md5": "fee775759b7a0945d9285d3128c2d04c",
+        "sha256": "8a345f064d8cb24e126295a505aeeeda4b99f542f13ddf9c769a82b64b544c04",
+        "blake2b_256": "1b244db6a17d601765a652511c62ccc28577703978bf21063b8cdc746abb8892"
+      },
+      "upload_time": "2026-10-22T05:57:05",
+      "upload_time_iso_8601": "2026-10-22T05:57:05.243468Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3b/2f/e90eb041301171721f47cb182990da336ef86f5ee742f2d970c5b5ba471a/ry-0.0.104-cp315-cp315-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp315-cp315-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "dc6e75851437f6a2468c5f02b366cfd6",
+      "size": 6947257,
+      "digests": {
+        "md5": "dc6e75851437f6a2468c5f02b366cfd6",
+        "sha256": "5e79165a3f27940b844aa62aa9e03e571f20255c83b224044f9e9b946fb74fe7",
+        "blake2b_256": "3b2fe90eb041301171721f47cb182990da336ef86f5ee742f2d970c5b5ba471a"
+      },
+      "upload_time": "2026-10-22T05:57:06",
+      "upload_time_iso_8601": "2026-10-22T05:57:06.706828Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/90/2f/9cb1094bdf316f6baea7f071500c1f0ca806f0eb5c1b1f2f3114ff0fc416/ry-0.0.104-cp315-cp315-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "fcaa889fb701f599310788ccf692ef1e",
+      "size": 7463051,
+      "digests": {
+        "md5": "fcaa889fb701f599310788ccf692ef1e",
+        "sha256": "a30e7c1bd7f3ce63d9f3cb0d5c68a2d80147666da31bf65353b8ec447edd43a1",
+        "blake2b_256": "902f9cb1094bdf316f6baea7f071500c1f0ca806f0eb5c1b1f2f3114ff0fc416"
+      },
+      "upload_time": "2026-10-22T05:57:08",
+      "upload_time_iso_8601": "2026-10-22T05:57:08.289941Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a0/86/13ec7ea10d58c1df0c773be78680ecf0d12ede9a9c0c7f837867b7916f53/ry-0.0.104-cp315-cp315t-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "7bdbec90f1ccc9838c2bba6c1303e41f",
+      "size": 6350829,
+      "digests": {
+        "md5": "7bdbec90f1ccc9838c2bba6c1303e41f",
+        "sha256": "41ed7e094718d990b53ab252203a0b43b352c906db6c3538e012bb2eb43bb645",
+        "blake2b_256": "a08613ec7ea10d58c1df0c773be78680ecf0d12ede9a9c0c7f837867b7916f53"
+      },
+      "upload_time": "2026-10-22T05:57:15",
+      "upload_time_iso_8601": "2026-10-22T05:57:15.204286Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/6b/d2/2b1f72651e520ad327c33f27599bbf983b8dea527edd718c8c26b70e8403/ry-0.0.104-cp315-cp315t-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "29b9e9e0b6da2e1fdcba03e33492132e",
+      "size": 6993459,
+      "digests": {
+        "md5": "29b9e9e0b6da2e1fdcba03e33492132e",
+        "sha256": "e49e87507ec315dba130c3e0b3367176b3c4f30944283da1b6ea64321f94a224",
+        "blake2b_256": "6bd22b1f72651e520ad327c33f27599bbf983b8dea527edd718c8c26b70e8403"
+      },
+      "upload_time": "2026-10-22T05:57:17",
+      "upload_time_iso_8601": "2026-10-22T05:57:17.281791Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/48/08/3941c980f58ba8bec94cc2befb188d5b7bb96053b146fb9b3b9376f1ee37/ry-0.0.104-cp315-cp315t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "feb8237894157eccfd94296a048dd51f",
+      "size": 7246637,
+      "digests": {
+        "md5": "feb8237894157eccfd94296a048dd51f",
+        "sha256": "8bbd2f3605b0b6dceb904ea919dda71f224a424e6088ebe46fe7a5a438d13cec",
+        "blake2b_256": "48083941c980f58ba8bec94cc2befb188d5b7bb96053b146fb9b3b9376f1ee37"
+      },
+      "upload_time": "2026-10-22T05:57:19",
+      "upload_time_iso_8601": "2026-10-22T05:57:19.719742Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/32/03/1b0345b969274479243d2a64e26e5feaa74a8c250a952b95a13950543884/ry-0.0.104-cp315-cp315t-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "976390f97c0290d31118a64ee7de16bc",
+      "size": 6850867,
+      "digests": {
+        "md5": "976390f97c0290d31118a64ee7de16bc",
+        "sha256": "b32a1317e1a6ce542cff648865375d3120fca3cbcaef284b7387cb8080e3685c",
+        "blake2b_256": "32031b0345b969274479243d2a64e26e5feaa74a8c250a952b95a13950543884"
+      },
+      "upload_time": "2026-10-22T05:57:21",
+      "upload_time_iso_8601": "2026-10-22T05:57:21.386953Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/05/74/caabcbafd6957497674a8fc06dd9dbe2c0b59d2dbe74af88e21a38f002f0/ry-0.0.104-cp315-cp315t-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "c05152e89ea827260d6e9c61e466787d",
+      "size": 6644651,
+      "digests": {
+        "md5": "c05152e89ea827260d6e9c61e466787d",
+        "sha256": "ae5afb812e0300756ad6e5ae8f7761515a636de870da35956f09c5263e491d8a",
+        "blake2b_256": "0574caabcbafd6957497674a8fc06dd9dbe2c0b59d2dbe74af88e21a38f002f0"
+      },
+      "upload_time": "2026-10-22T05:57:23",
+      "upload_time_iso_8601": "2026-10-22T05:57:23.159061Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/0b/63/176c7dcd3b88d356805e750d3720fbe0c247dedf75f0118a1a74574b67ab/ry-0.0.104-cp315-cp315t-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "ffe818819d1ad41fa91e951f218ef62b",
+      "size": 7086038,
+      "digests": {
+        "md5": "ffe818819d1ad41fa91e951f218ef62b",
+        "sha256": "55b39008df523955ff7816e941c34c46082ed75d38660bc60e824685c4081bf4",
+        "blake2b_256": "0b63176c7dcd3b88d356805e750d3720fbe0c247dedf75f0118a1a74574b67ab"
+      },
+      "upload_time": "2026-10-22T05:57:25",
+      "upload_time_iso_8601": "2026-10-22T05:57:25.187419Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/c4/19/3c3f21f891da1fba24c1530096942af48aac66eadbd358d8786d6d6733cd/ry-0.0.104-cp315-cp315t-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "5c0739997c2eb95408e5c2aae2331b7e",
+      "size": 6977265,
+      "digests": {
+        "md5": "5c0739997c2eb95408e5c2aae2331b7e",
+        "sha256": "488f35dc41f712645843b2fbffab888e22e4c1ce0cbb72a9f0f1a22f77e773e3",
+        "blake2b_256": "c4193c3f21f891da1fba24c1530096942af48aac66eadbd358d8786d6d6733cd"
+      },
+      "upload_time": "2026-10-22T05:57:26",
+      "upload_time_iso_8601": "2026-10-22T05:57:26.995025Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/33/a8/cba93bf842458ec7069e3c707048c3786dbaea0983b37488d1d83d4bf7e0/ry-0.0.104-cp315-cp315t-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "643212a882296a807ae31a2bdf1c75c3",
+      "size": 6771648,
+      "digests": {
+        "md5": "643212a882296a807ae31a2bdf1c75c3",
+        "sha256": "8de1d2586b613d6f49c566fa3ece947c9949c65c7e36910a9be49bef447ebda0",
+        "blake2b_256": "33a8cba93bf842458ec7069e3c707048c3786dbaea0983b37488d1d83d4bf7e0"
+      },
+      "upload_time": "2026-10-22T05:57:28",
+      "upload_time_iso_8601": "2026-10-22T05:57:28.974365Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/3c/5a/afc20b27d9f9af66f92c3e058ff188a51501f93d39b65cddaf5488b55b82/ry-0.0.104-cp315-cp315t-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "c4440a75bfd94763c4a085de22fd70d5",
+      "size": 6915046,
+      "digests": {
+        "md5": "c4440a75bfd94763c4a085de22fd70d5",
+        "sha256": "fafb94798de1847a6afd9a1f425865b34729946e705a16eea4a68cf69b2592b4",
+        "blake2b_256": "3c5aafc20b27d9f9af66f92c3e058ff188a51501f93d39b65cddaf5488b55b82"
+      },
+      "upload_time": "2026-10-22T05:57:30",
+      "upload_time_iso_8601": "2026-10-22T05:57:30.550918Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4d/6f/3ed332771c861565d9fea0bff03d425e59961bfad52ed7a2b15d4b9fc507/ry-0.0.104-cp315-cp315t-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-cp315-cp315t-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "6fab407dff64e7d38d728b3e44b8836a",
+      "size": 7425957,
+      "digests": {
+        "md5": "6fab407dff64e7d38d728b3e44b8836a",
+        "sha256": "c30d2d94485decc0debce978948c48999a608bd283e6b2301adaf718f5397db2",
+        "blake2b_256": "4d6f3ed332771c861565d9fea0bff03d425e59961bfad52ed7a2b15d4b9fc507"
+      },
+      "upload_time": "2026-10-22T05:57:32",
+      "upload_time_iso_8601": "2026-10-22T05:57:32.061028Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/63/d6/7c10dead8b0c184b146b328caf164c868687b3b8e03d6418207b8f588362/ry-0.0.104-cp315-cp315-win32.whl",
+      "filename": "ry-0.0.104-cp315-cp315-win32.whl",
+      "version": "0.0.104",
+      "md5_digest": "e539d8f88df11e9f198ec26a4c148c2c",
+      "size": 6084174,
+      "digests": {
+        "md5": "e539d8f88df11e9f198ec26a4c148c2c",
+        "sha256": "754f7a3886b6ce54225964d123f7be94daf357e2b62d070233b818b4195e2014",
+        "blake2b_256": "63d67c10dead8b0c184b146b328caf164c868687b3b8e03d6418207b8f588362"
+      },
+      "upload_time": "2026-10-22T05:57:10",
+      "upload_time_iso_8601": "2026-10-22T05:57:10.512037Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/72/e2/7a94fed3df53b6575b3a4ba84276fb7b12d49f73613f00b105b0a1877885/ry-0.0.104-cp315-cp315-win_amd64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-win_amd64.whl",
+      "version": "0.0.104",
+      "md5_digest": "45c34c6c760a712f7f8a0162a4e55587",
+      "size": 6495530,
+      "digests": {
+        "md5": "45c34c6c760a712f7f8a0162a4e55587",
+        "sha256": "43cf9db1c0afedf29bf1a596d9a8273c2676efbe647cc7dc861e17ae5e344491",
+        "blake2b_256": "72e27a94fed3df53b6575b3a4ba84276fb7b12d49f73613f00b105b0a1877885"
+      },
+      "upload_time": "2026-10-22T05:57:12",
+      "upload_time_iso_8601": "2026-10-22T05:57:12.292307Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/21/3b/ba20cb29efb1e4c3988cd3fd66f2852b24ebb2d2d221306eb76e376f916c/ry-0.0.104-cp315-cp315-win_arm64.whl",
+      "filename": "ry-0.0.104-cp315-cp315-win_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "617c58d2700c000eee91280fc64e1bf4",
+      "size": 6326024,
+      "digests": {
+        "md5": "617c58d2700c000eee91280fc64e1bf4",
+        "sha256": "9d951170502fb1a1ede1a82a3b00aa6cb897464df048431a2ba2225538ca25d5",
+        "blake2b_256": "213bba20cb29efb1e4c3988cd3fd66f2852b24ebb2d2d221306eb76e376f916c"
+      },
+      "upload_time": "2026-10-22T05:57:13",
+      "upload_time_iso_8601": "2026-10-22T05:57:13.851912Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/e3/ce/e661f7cfc58110cd7b5898548d48f0672dc953a17ddbfa275fc93477a9fc/ry-0.0.104-pp311-pypy311_pp73-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-manylinux_2_17_i686.manylinux2014_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "903e3887066de4302021355cb8b0838a",
+      "size": 7132928,
+      "digests": {
+        "md5": "903e3887066de4302021355cb8b0838a",
+        "sha256": "6dd5d168e0629e5bfc3e5a8b74e1bb22545040c1d32e8e7242953b0cbb46235f",
+        "blake2b_256": "e3cee661f7cfc58110cd7b5898548d48f0672dc953a17ddbfa275fc93477a9fc"
+      },
+      "upload_time": "2026-10-22T05:57:34",
+      "upload_time_iso_8601": "2026-10-22T05:57:34.002736Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/74/79/587f7811bac02123a27b1770594dac7b8968bd19e29caba700dda43870a7/ry-0.0.104-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "1b5aaa3cf5109d27235b5ef7d79fbb24",
+      "size": 7309081,
+      "digests": {
+        "md5": "1b5aaa3cf5109d27235b5ef7d79fbb24",
+        "sha256": "5ad8e285dc4c1549d10d5d97d47067141afe84f99d19c58bc37efb0495bf7ff3",
+        "blake2b_256": "7479587f7811bac02123a27b1770594dac7b8968bd19e29caba700dda43870a7"
+      },
+      "upload_time": "2026-10-22T05:57:35",
+      "upload_time_iso_8601": "2026-10-22T05:57:35.860836Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/23/d7/fab159be34ef82e211557bcbe213211d58ee22b6ad2cc3d7b508a25fa7a3/ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_aarch64.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "61ece358aebdc1573732f2db7a4405ba",
+      "size": 6920134,
+      "digests": {
+        "md5": "61ece358aebdc1573732f2db7a4405ba",
+        "sha256": "2eca6da0dd1998d3860bd813b4f86e90b1ff1793da79a1d1a0927c6a518884be",
+        "blake2b_256": "23d7fab159be34ef82e211557bcbe213211d58ee22b6ad2cc3d7b508a25fa7a3"
+      },
+      "upload_time": "2026-10-22T05:57:37",
+      "upload_time_iso_8601": "2026-10-22T05:57:37.560872Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/fc/26/d958cc736e9683a22d7c17ad0bc803fa5d062c5470244aa072f2ae626dde/ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_armv7l.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "660207268dac6d34add4d3b3e47355ae",
+      "size": 6743745,
+      "digests": {
+        "md5": "660207268dac6d34add4d3b3e47355ae",
+        "sha256": "6589d6638ec96da8b8450b7ea669f34eebb7c0cfc0d1041955498a3630dd1090",
+        "blake2b_256": "fc26d958cc736e9683a22d7c17ad0bc803fa5d062c5470244aa072f2ae626dde"
+      },
+      "upload_time": "2026-10-22T05:57:39",
+      "upload_time_iso_8601": "2026-10-22T05:57:39.126997Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/fc/cf/9a899cef173da8ee26108346b1a494be3b8c9eb847b755cd0786765cc54c/ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_s390x.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-manylinux_2_28_s390x.whl",
+      "version": "0.0.104",
+      "md5_digest": "2857ad02e99a361c3ee5c305a85e56ea",
+      "size": 7214352,
+      "digests": {
+        "md5": "2857ad02e99a361c3ee5c305a85e56ea",
+        "sha256": "c9a59244cd946d29b5efbc74b288b0b50ee5648ccb9006d7d2b7132af0708c9d",
+        "blake2b_256": "fccf9a899cef173da8ee26108346b1a494be3b8c9eb847b755cd0786765cc54c"
+      },
+      "upload_time": "2026-10-22T05:57:40",
+      "upload_time_iso_8601": "2026-10-22T05:57:40.532293Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/c7/09/2f06e971916990afc2be3015e7803f8d7cb27741ae957e7011f6d41f9f28/ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_aarch64.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_aarch64.whl",
+      "version": "0.0.104",
+      "md5_digest": "6d5e62bdf44020718682000c89e296d7",
+      "size": 7047246,
+      "digests": {
+        "md5": "6d5e62bdf44020718682000c89e296d7",
+        "sha256": "4fa87f682213a79103b3772358ad40bbf350a332f93799557d3e55c621ee3681",
+        "blake2b_256": "c7092f06e971916990afc2be3015e7803f8d7cb27741ae957e7011f6d41f9f28"
+      },
+      "upload_time": "2026-10-22T05:57:42",
+      "upload_time_iso_8601": "2026-10-22T05:57:42.898519Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/19/eb/80bbcaeb7857784338c7b861e598056089084f3083fefed3978ab7f1b306/ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_armv7l.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_armv7l.whl",
+      "version": "0.0.104",
+      "md5_digest": "e366cd0bbc5dcc90cef541e4bcbcc396",
+      "size": 6872955,
+      "digests": {
+        "md5": "e366cd0bbc5dcc90cef541e4bcbcc396",
+        "sha256": "cf5dfc7dca76dc6204bfcd4aafb4036bdedf7c8c563db33a9a97be5156f734db",
+        "blake2b_256": "19eb80bbcaeb7857784338c7b861e598056089084f3083fefed3978ab7f1b306"
+      },
+      "upload_time": "2026-10-22T05:57:44",
+      "upload_time_iso_8601": "2026-10-22T05:57:44.496187Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/16/d3/c53f3ee87fc9bab71bf247629a4dab23a7e07238dd94bae576633cc8ec83/ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_i686.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_i686.whl",
+      "version": "0.0.104",
+      "md5_digest": "23852770ffcd225dcf45b63c8cffed52",
+      "size": 7025237,
+      "digests": {
+        "md5": "23852770ffcd225dcf45b63c8cffed52",
+        "sha256": "44be4ba74936503c3d1f500fc56ff4d86302d46fd726cf449477201691b5b30d",
+        "blake2b_256": "16d3c53f3ee87fc9bab71bf247629a4dab23a7e07238dd94bae576633cc8ec83"
+      },
+      "upload_time": "2026-10-22T05:57:46",
+      "upload_time_iso_8601": "2026-10-22T05:57:46.091677Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/89/16/79515b9b32ee844102cdf063fa740886820ccf965d9bf2f06ed607e1a01d/ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_x86_64.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp73-musllinux_1_2_x86_64.whl",
+      "version": "0.0.104",
+      "md5_digest": "7e32a657491db778e8fd0a8a86caa917",
+      "size": 7491825,
+      "digests": {
+        "md5": "7e32a657491db778e8fd0a8a86caa917",
+        "sha256": "952cf0e95da721068d64b05eb8e9eb379c8af8c80d359ca7dcbc2020d40b0172",
+        "blake2b_256": "891679515b9b32ee844102cdf063fa740886820ccf965d9bf2f06ed607e1a01d"
+      },
+      "upload_time": "2026-10-22T05:57:47",
+      "upload_time_iso_8601": "2026-10-22T05:57:47.482147Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/1f/e9/da1a4e2d44abd0688d9956bc8e304297e0605d473d7db782ebea295f3857/ry-0.0.104-pp311-pypy311_pp80-macosx_11_0_arm64.whl",
+      "filename": "ry-0.0.104-pp311-pypy311_pp80-macosx_11_0_arm64.whl",
+      "version": "0.0.104",
+      "md5_digest": "b809c3f86fe64c86724fbcb6002a35cd",
+      "size": 6497755,
+      "digests": {
+        "md5": "b809c3f86fe64c86724fbcb6002a35cd",
+        "sha256": "402f52f446160e2bedf50a2bbdd2bba3caba875ee153b36d55fbbe06361588be",
+        "blake2b_256": "1fe9da1a4e2d44abd0688d9956bc8e304297e0605d473d7db782ebea295f3857"
+      },
+      "upload_time": "2026-10-22T05:57:49",
+      "upload_time_iso_8601": "2026-10-22T05:57:49.044255Z"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/93/0b/909bd7f2d597d9b9ace75528d609f342cab316112a8418b4bf899ffc79d4/ry-0.0.104.tar.gz",
+      "filename": "ry-0.0.104.tar.gz",
+      "version": "0.0.104",
+      "md5_digest": "5e115c5e33ea7cffb953c0c377dc9ae8",
+      "size": 834859,
+      "digests": {
+        "md5": "5e115c5e33ea7cffb953c0c377dc9ae8",
+        "sha256": "00d9374e885d4e32c226b101dbae16c4ae8340ed4952aa58dba60e35662ef607",
+        "blake2b_256": "930b909bd7f2d597d9b9ace75528d609f342cab316112a8418b4bf899ffc79d4"
+      },
+      "upload_time": "2026-10-22T05:57:50",
+      "upload_time_iso_8601": "2026-10-22T05:57:50.860557Z"
+    }
+  ]
+}
